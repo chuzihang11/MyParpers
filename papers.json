@@ -1,0 +1,56 @@
+{
+  "papers": [
+    {
+      "id": 1,
+      "title": "你论文的标题",
+      "authors": "作者1, 作者2, 等",
+      "year": 2026,
+      "type": "Conference",
+      "conference": "会议名称（如CVPR、ICCV、NeurIPS等）",
+      "abstract": "论文摘要 - 简短的描述论文主要内容",
+      "pdfUrl": "https://arxiv.org/pdf/2604.11539",
+      "arxivUrl": "https://arxiv.org/abs/2604.11539",
+      "codeUrl": "",
+      "tags": ["标签1", "标签2", "标签3"]
+    },
+    {
+      "id": 2,
+      "title": "你论文的标题",
+      "authors": "作者1, 作者2, 等",
+      "year": 2025,
+      "type": "Conference",
+      "conference": "ICCV",
+      "abstract": "论文摘要 - 简短的描述论文主要内容",
+      "pdfUrl": "https://openaccess.thecvf.com/content/ICCV2025/papers/Peng_On_the_Provable_Importance_of_Gradients_for_Autonomous_Language-Assisted_Image_ICCV_2025_paper.pdf",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "tags": ["标签1", "标签2", "标签3"]
+    },
+    {
+      "id": 3,
+      "title": "Conditional Representation Learning for Customized Tasks",
+      "authors": "作者1, 作者2, 等",
+      "year": 2024,
+      "type": "Journal",
+      "conference": "Journal/Workshop",
+      "abstract": "论文摘要 - 简短的描述论文主要内容",
+      "pdfUrl": "https://yunfan-li.github.io/assets/pdf/Conditional%20Representation%20Learning%20for%20Customized%20Tasks.pdf",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "tags": ["标签1", "标签2", "标签3"]
+    },
+    {
+      "id": 4,
+      "title": "你论文的标题",
+      "authors": "作者1, 作者2, 等",
+      "year": 2026,
+      "type": "Conference",
+      "conference": "会议名称（如CVPR、ICCV、NeurIPS等）",
+      "abstract": "论文摘要 - 简短的描述论文主要内容",
+      "pdfUrl": "https://arxiv.org/pdf/2602.05464",
+      "arxivUrl": "https://arxiv.org/abs/2602.05464",
+      "codeUrl": "",
+      "tags": ["标签1", "标签2", "标签3"]
+    }
+  ]
+}

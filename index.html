@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPaper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MyPaper</h1>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="search-input"
+                    placeholder="Search papers by title or keywords..."
+                    autocomplete="off"
+                >
+                <span class="search-icon">🔍</span>
+                <div class="search-tips">
+                    搜索提示：输入论文标题、关键词或会议名称进行筛选
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Menu -->
+        <nav class="categories">
+            <ul>
+                <li><a href="#add-papers" class="category-link">📌 点击开始添加论文</a></li>
+            </ul>
+        </nav>
+
+        <!-- Featured/Recent Papers -->
+        <section class="featured" id="papers-section">
+            <h2>📚 我的论文</h2>
+            <div id="papers-container" class="paper-list">
+                <div class="empty-state">
+                    <p>暂无论文。使用表单下方的"添加论文"按钮添加你的第一篇论文。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add Paper Form -->
+        <section class="add-paper-section">
+            <h2>➕ 添加新论文</h2>
+            <form id="paperForm" class="paper-form">
+                <div class="form-group">
+                    <label for="paperTitle">论文标题 *</label>
+                    <input type="text" id="paperTitle" placeholder="论文标题" required>
+                </div>
+                <div class="form-group">
+                    <label for="paperConference">会议/期刊 *</label>
+                    <input type="text" id="paperConference" placeholder="例如: [2025 ICCV] 或 [2024 CVPR]" required>
+                </div>
+                <div class="form-group">
+                    <label for="paperCategory">分类 *</label>
+                    <input type="text" id="paperCategory" placeholder="例如: 3DGS Segmentation, Editing 等" required>
+                </div>
+                <div class="form-group">
+                    <label for="paperUrl">论文链接</label>
+                    <input type="url" id="paperUrl" placeholder="https://example.com/paper">
+                </div>
+                <div class="form-group">
+                    <label for="codeUrl">代码链接</label>
+                    <input type="url" id="codeUrl" placeholder="https://github.com/...">
+                </div>
+                <button type="submit" class="submit-btn">添加论文</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2026 MyPaper. All rights reserved.</p>
+            <p><a href="https://github.com/" target="_blank">View on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
